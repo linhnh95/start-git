@@ -39,7 +39,7 @@ class LMCActiveHook{
      * @return mixed
      */
     public static function lmc_add_settings_link($links,$file){
-        if ( strpos( $file, 'mobiconnector/mobiconnector.php' ) !== false ) {
+        if ( strpos( $file, 'l-mobile-connection/connection.php' ) !== false ) {
             $new_links = array(				
                 'settingsmod' => '<a href="'.get_admin_url().'/admin.php?page=mobile-settings" class="settings_link">' . __('Settings','lmconnection') . '</a>'
             );
