@@ -1,0 +1,19 @@
+{
+    "name": "linh/l-mobile-connection",
+    "description": "Test",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "John Smith",
+            "email": "john@example.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MobileConnection\\": "./includes"
+        }
+    }
+}
